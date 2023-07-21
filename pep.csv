@@ -1,0 +1,617 @@
+name,number,status
+PEP Purpose and Guidelines,1,PA
+Procedure for Adding New Modules,2,PA
+Guidelines for Handling Bug Reports,3,PW
+Deprecation of Standard Modules,4,PA
+Guidelines for Language Evolution,5,PA
+Bug Fix Releases,6,PA
+Style Guide for C Code,7,PA
+Style Guide for Python Code,8,PA
+Sample Plaintext PEP Template,9,PW
+Voting Guidelines,10,PA
+CPython platform support,11,PA
+Sample reStructuredText PEP Template,12,PA
+Python Language Governance,13,PA
+The Zen of Python,20,IA
+Feature Requests,42,PW
+Python Unicode Integration,100,SF
+Doing Python Releases 101,101,IA
+Doing Python Micro Releases,102,IS
+Collecting information about git,103,IW
+Python 1.6 Release Schedule,160,IF
+Python 2.0 Release Schedule,200,IF
+Lockstep Iteration,201,SF
+List Comprehensions,202,SF
+Augmented Assignments,203,SF
+Range Literals,204,SR
+Weak References,205,SF
+Python Advanced Library,206,IW
+Rich Comparisons,207,SF
+Reworking the Coercion Model,208,SF
+Multi-dimensional Arrays,209,SW
+Decoupling the Interpreter Loop,210,SR
+Adding A New Outer Product Operator,211,SR
+Loop Counter Iteration,212,SR
+Attribute Access Handlers,213,SD
+Extended Print Statement,214,SF
+String Interpolation,215,SS
+Docstring Format,216,IR
+Display Hook for Interactive Use,217,SF
+Adding a Built-In Set Object Type,218,SF
+Stackless Python,219,SD
+"Coroutines, Generators, Continuations",220,IR
+Import As,221,SF
+Web Library Enhancements,222,SD
+Change the Meaning of x Escapes,223,SF
+Attribute Docstrings,224,SR
+Elementwise/Objectwise Operators,225,SR
+Python 2.1 Release Schedule,226,IF
+Statically Nested Scopes,227,SF
+Reworking Python’s Numeric Model,228,SW
+Using Distutils to Build Python,229,SF
+Warning Framework,230,SF
+__findattr__(),231,SR
+Function Attributes,232,SF
+Python Online Help,233,SD
+Iterators,234,SF
+Import on Case-Insensitive Platforms,235,SF
+Back to the __future__,236,SF
+Unifying Long Integers and Integers,237,SF
+Changing the Division Operator,238,SF
+Adding a Rational Type to Python,239,SR
+Adding a Rational Literal to Python,240,SR
+Metadata for Python Software Packages,241,SS
+Numeric Kinds,242,SR
+Module Repository Upload Mechanism,243,SW
+The directive statement,244,SR
+Python Interface Syntax,245,SR
+Object Adaptation,246,SR
+API for Cryptographic Hash Functions,247,IF
+Python Database API Specification v1.0,248,IF
+Python Database API Specification v2.0,249,IF
+Using site-packages on Windows,250,SF
+Python 2.2 Release Schedule,251,IF
+Making Types Look More Like Classes,252,SF
+Subtyping Built-in Types,253,SF
+Making Classes Look More Like Types,254,SR
+Simple Generators,255,SF
+Docstring Processing System Framework,256,SR
+Docstring Conventions,257,IA
+Docutils Design Specification,258,SR
+Omit printing newline after newline,259,SR
+Simplify xrange(),260,SF
+Support for “wide” Unicode characters,261,SF
+A Database of Installed Python Packages,262,SR
+Defining Python Source Code Encodings,263,SF
+Future statements in simulated shells,264,SF
+Sorting Dictionaries by Value,265,SR
+Optimizing Global Variable/Attribute Access,266,SW
+Optimized Access to Module Namespaces,267,SD
+Extended HTTP functionality and WebDAV,268,SR
+Pgen Module for Python,269,SD
+uniq method for list objects,270,SR
+Prefixing sys.path by command line option,271,SR
+API for Block Encryption Algorithms v1.0,272,IF
+Import Modules from Zip Archives,273,SF
+Dict Comprehensions,274,SF
+Switching on Multiple Values,275,SR
+Simple Iterator for ints,276,SR
+Unicode file name support for Windows NT,277,SF
+Universal Newline Support,278,SF
+The enumerate() built-in function,279,SF
+Optimizing access to globals,280,SD
+Loop Counter Iteration with range and xrange,281,SR
+A Logging System,282,SF
+Python 2.3 Release Schedule,283,IF
+Integer for-loops,284,SR
+Adding a bool type,285,SF
+Enhanced Argument Tuples,286,SD
+reStructuredText Docstring Format,287,IA
+Generators Attributes and Exceptions,288,SW
+Generator Expressions,289,SF
+Code Migration and Modernization,290,IA
+Backward Compatibility for the Python 2 Standard Library,291,IF
+Simpler String Substitutions,292,SF
+Codec Error Handling Callbacks,293,SF
+Type Names in the types Module,294,SR
+Interpretation of multiline string constants,295,SR
+Adding a bytes Object Type,296,SW
+Support for System Upgrades,297,SR
+The Locked Buffer Interface,298,SW
+Special __main__() function in modules,299,SR
+Package Index and Metadata for Distutils,301,SF
+New Import Hooks,302,SF
+Extend divmod() for Multiple Divisors,303,SR
+Controlling Generation of Bytecode Files,304,SW
+CSV File API,305,SF
+How to Change Python’s Grammar,306,IW
+Extensions to the pickle protocol,307,SF
+Conditional Expressions,308,SF
+Partial Function Application,309,SF
+Reliable Acquisition/Release Pairs,310,SR
+Simplified Global Interpreter Lock Acquisition for Extensions,311,SF
+Simple Implicit Lambda,312,SD
+Adding Roman Numeral Literals to Python,313,SR
+Metadata for Python Software Packages 1.1,314,SS
+Enhanced While Loop,315,SR
+Programming by Contract for Python,316,SD
+Eliminate Implicit Exception Instantiation,317,SR
+Decorators for Functions and Methods,318,SF
+Python Synchronize/Asynchronize Block,319,SR
+Python 2.4 Release Schedule,320,IF
+Date/Time Parsing and Formatting,321,SW
+Reverse Iteration,322,SF
+Copyable Iterators,323,SD
+subprocess - New process module,324,SF
+Resource-Release Support for Generators,325,SR
+A Case for Top and Bottom Values,326,SR
+Decimal Data Type,327,SF
+Imports: Multi-Line and Absolute/Relative,328,SF
+Treating Builtins as Constants in the Standard Library,329,SR
+Python Bytecode Verification,330,SR
+Locale-Independent Float/String Conversions,331,SF
+Byte vectors and String/Unicode Unification,332,SR
+Python Web Server Gateway Interface v1.0,333,IF
+Simple Coroutines via SuspendIteration,334,SW
+Overloadable Boolean Operators,335,SR
+Make None Callable,336,SR
+Logging Usage in the Standard Library,337,SD
+Executing modules as scripts,338,SF
+Design of the CPython Compiler,339,IW
+Anonymous Block Statements,340,SR
+Unifying try-except and try-finally,341,SF
+Coroutines via Enhanced Generators,342,SF
+The “with” Statement,343,SF
+Exception Chaining and Embedded Tracebacks,344,SS
+Metadata for Python Software Packages 1.2,345,SS
+User Defined (“with”) Statements,346,SW
+Migrating the Python CVS to Subversion,347,PF
+Exception Reorganization for Python 3.0,348,SR
+Allow str() to return unicode strings,349,SR
+Codetags,350,IR
+The freeze protocol,351,SR
+Required Superclass for Exceptions,352,SF
+Using ssize_t as the index type,353,SF
+Enumerations in Python,354,SS
+Path - Object oriented filesystem paths,355,SR
+Python 2.5 Release Schedule,356,IF
+Allowing Any Object to be Used for Slicing,357,SF
+The “bytes” Object,358,SF
+The “make” Statement,359,SW
+Externally Maintained Packages,360,PF
+Python 2.6 and 3.0 Release Schedule,361,IF
+Function Signature Object,362,SF
+Syntax For Dynamic Attribute Access,363,SR
+Transitioning to the Py3K Standard Library,364,SW
+Adding the pkg_resources module,365,SR
+Main module explicit relative imports,366,SF
+New Super,367,SS
+Standard image protocol and class,368,SD
+Post import hooks,369,SW
+Per user site-packages directory,370,SF
+Addition of the multiprocessing package to the standard library,371,SF
+Adding an ordered dictionary to collections,372,SF
+Python 2.7 Release Schedule,373,IF
+Choosing a distributed VCS for the Python project,374,PF
+Python 3.1 Release Schedule,375,IF
+Database of Installed Python Distributions,376,SF
+Allow __enter__() methods to skip the statement body,377,SR
+Format Specifier for Thousands Separator,378,SF
+Adding an Assignment Expression,379,SW
+Syntax for Delegating to a Subgenerator,380,SF
+Mirroring infrastructure for PyPI,381,SW
+Namespace Packages,382,SR
+Non-decodable Bytes in System Character Interfaces,383,SF
+Defining a Stable ABI,384,SF
+Migrating from Subversion to Mercurial,385,PF
+Changing the version comparison module in Distutils,386,SS
+Backwards Compatibility Policy,387,PA
+argparse - New Command Line Parsing Module,389,SF
+Static metadata for Distutils,390,SR
+Dictionary-Based Configuration For Logging,391,SF
+Python 3.2 Release Schedule,392,IF
+Flexible String Representation,393,SF
+The “python” Command on Unix-Like Systems,394,IA
+Qualified Names for Modules,395,SW
+Module Version Numbers,396,IR
+Python launcher for Windows,397,SF
+Python 3.3 Release Schedule,398,IF
+Pure Python/C Accelerator Module Compatibility Requirements,399,IF
+Deprecate codecs.StreamReader and codecs.StreamWriter,400,SD
+BDFL Retirement,401,PR
+Simplified Package Layout and Partitioning,402,SR
+General purpose decorator clause (aka “@in” clause),403,SD
+Python 2.8 Un-release Schedule,404,IF
+Python Virtual Environments,405,SF
+Improved Encapsulation of Import State,406,SW
+New release cycle and introducing long-term support versions,407,PD
+Standard library __preview__ package,408,SR
+Suppressing exception context,409,SF
+Use decimal.Decimal type for timestamps,410,SR
+Provisional packages in the Python standard library,411,IS
+Key-Sharing Dictionary,412,SF
+Faster evolution of the Python Standard Library,413,PW
+Explicit Unicode Literal for Python 3.3,414,SF
+Implement context suppression with exception attributes,415,SF
+Add a frozendict builtin type,416,SR
+Including mock in the Standard Library,417,SF
+"Add monotonic time, performance counter, and process time functions",418,SF
+Protecting cleanup statements from interruptions,419,SD
+Implicit Namespace Packages,420,SF
+Adding sys.implementation,421,SF
+Simpler customisation of class creation,422,SW
+Naming conventions and recipes related to packaging,423,ID
+A method for exposing a length hint,424,SF
+Compatibility Tags for Built Distributions,425,SF
+Metadata for Python Software Packages 2.0,426,IW
+The Wheel Binary Package Format 1.0,427,SF
+The pathlib module – object-oriented filesystem paths,428,SF
+Python 3.4 Release Schedule,429,IF
+Migrating to Python 3 as the default online documentation,430,IF
+Time zone support improvements,431,SS
+Restructuring the CPython startup sequence,432,SW
+Easier suppression of file descriptor inheritance,433,SS
+IDLE Enhancement Exception for All Branches,434,IA
+Adding an Enum type to the Python standard library,435,SF
+The Argument Clinic DSL,436,SF
+"A DSL for specifying signatures, annotations and argument converters",437,SR
+Transitioning to release-file hosting on PyPI,438,PS
+Inclusion of implicit pip bootstrap in Python installation,439,SR
+Version Identification and Dependency Specification,440,SF
+Improving Python ZIP Application Support,441,SF
+Safe object finalization,442,SF
+Single-dispatch generic functions,443,SF
+Python Web3 Interface,444,ID
+Add new APIs to customize Python memory allocators,445,SF
+Make newly created file descriptors non-inheritable,446,SF
+Add __getdescriptor__ method to metaclass,447,SD
+Additional Unpacking Generalizations,448,SF
+Removal of the PyPI Mirror Auto Discovery and Naming Scheme,449,PF
+Adding A Statistics Module To The Standard Library,450,SF
+A ModuleSpec Type for the Import System,451,SF
+API for Cryptographic Hash Functions v2.0,452,IF
+Explicit bootstrapping of pip in Python installations,453,SF
+Add a new tracemalloc module to trace Python memory allocations,454,SF
+Adding a key-transforming dictionary to collections,455,SR
+Secure and interchangeable hash algorithm,456,SF
+Notation For Positional-Only Parameters,457,IF
+Secure PyPI downloads with signed repository metadata,458,SA
+Standard Metadata Extensions for Python Software Packages,459,SW
+Add binary interpolation and formatting,460,SW
+Adding % formatting to bytes and bytearray,461,SF
+Core development workflow automation for CPython,462,PW
+Exception-catching expressions,463,SR
+Removal of the PyPI Mirror Authenticity API,464,PF
+A dedicated infix operator for matrix multiplication,465,SF
+Network Security Enhancements for Python 2.7.x,466,SF
+Minor API improvements for binary sequences,467,S
+Preserving the order of **kwargs in a function.,468,SF
+Migration of dict iteration code to Python 3,469,SW
+Removing External Hosting Support on PyPI,470,PF
+os.scandir() function – a better and faster directory iterator,471,SF
+Support for indexing with keyword arguments,472,SR
+Adding structured data to built-in exceptions,473,SR
+Creating forge.python.org,474,PW
+Retry system calls failing with EINTR,475,SF
+Enabling certificate verification by default for stdlib http clients,476,SF
+Backport ensurepip (PEP 453) to Python 2.7,477,SF
+Python 3.5 Release Schedule,478,IF
+Change StopIteration handling inside generators,479,SF
+Surviving a Compromise of PyPI: End-to-end signing of packages,480,S
+"Migrate CPython to Git, Github, and Phabricator",481,PW
+Literature Overview for Type Hints,482,IF
+The Theory of Type Hints,483,IF
+Type Hints,484,SF
+A Function for testing approximate equality,485,SF
+Make the Python Launcher aware of virtual environments,486,SF
+Simpler customisation of class creation,487,SF
+Elimination of PYO files,488,SF
+Multi-phase extension module initialization,489,SF
+Chain exceptions at C level,490,SR
+The Wheel Binary Package Format 1.9,491,SD
+Coroutines with async and await syntax,492,SF
+HTTPS verification migration tools for Python 2.7,493,SF
+Python 3.6 Release Schedule,494,IF
+Local Time Disambiguation,495,SF
+Environment Markers,496,IR
+A standard mechanism for backward compatibility,497,PR
+Literal String Interpolation,498,SF
+python -m foo should bind sys.modules[‘foo’] in addition to sys.modules[‘__main__’],499,SD
+A protocol for delegating datetime methods to their tzinfo implementations,500,SR
+General purpose string interpolation,501,SD
+String Interpolation - Extended Discussion,502,IR
+Simple Repository API,503,SF
+Using the System RNG by default,504,SW
+None-aware operators,505,SD
+Adding A Secrets Module To The Standard Library,506,SF
+Migrate CPython to Git and GitLab,507,PR
+Dependency specification for Python Software Packages,508,SF
+Add a private version to dict,509,SS
+Specialize functions with guards,510,SR
+API for code transformers,511,SR
+Migrating from hg.python.org to GitHub,512,PF
+A Platform Tag for Portable Linux Built Distributions,513,IS
+Python registration in the Windows registry,514,IA
+Underscores in Numeric Literals,515,SF
+Build system abstraction for pip/conda etc,516,SR
+A build-system independent format for source trees,517,SF
+Specifying Minimum Build System Requirements for Python Projects,518,SF
+Adding a file system path protocol,519,SF
+Preserving Class Attribute Definition Order,520,SF
+Managing global context via ‘with’ blocks in generators and coroutines,521,SW
+Allow BlockingIOError in security sensitive APIs,522,SR
+Adding a frame evaluation API to CPython,523,SF
+Make os.urandom() blocking on Linux,524,SF
+Asynchronous Generators,525,SF
+Syntax for Variable Annotations,526,SF
+Removing Un(der)used file types/extensions on PyPI,527,SF
+Change Windows console encoding to UTF-8,528,SF
+Change Windows filesystem encoding to UTF-8,529,SF
+Asynchronous Comprehensions,530,SF
+Existence checking operators,531,SW
+A circuit breaking protocol and binary operators,532,SD
+Deterministic cleanup for iterators,533,SD
+Improved Errors for Missing Standard Library Modules,534,SD
+Rich comparison chaining,535,SD
+Final Grammar for Literal String Interpolation,536,SD
+Python 3.7 Release Schedule,537,IF
+Coercing the legacy C locale to a UTF-8 based locale,538,SF
+A New C-API for Thread-Local Storage in CPython,539,SF
+Add a new UTF-8 Mode,540,SF
+Package Index Name Retention,541,PF
+Dot Notation Assignment In Function Header,542,SR
+A Unified TLS API for Python,543,SW
+Protocols: Structural subtyping (static duck typing),544,SA
+Python Documentation Translations,545,PF
+Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,546,SR
+Running extension modules using the -m option,547,SD
+More Flexible Loop Control,548,SR
+Instance Descriptors,549,SR
+Execution Context,550,SW
+Security transparency in the Python runtime,551,IW
+Deterministic pycs,552,SF
+Built-in breakpoint(),553,SF
+Multiple Interpreters in the Stdlib,554,S
+Context-local variables (contextvars),555,SW
+Threaded garbage collection,556,SD
+Data Classes,557,SF
+Defined semantics for locals(),558,SD
+Built-in noop(),559,SR
+Core support for typing module and generic types,560,SA
+Distributing and Packaging Type Information,561,SF
+Module __getattr__ and __dir__,562,SF
+Postponed Evaluation of Annotations,563,SA
+Add new time functions with nanosecond resolution,564,SF
+Show DeprecationWarning in __main__,565,SF
+Metadata for Python Software Packages 2.1,566,SF
+Context Variables,567,SF
+Generator-sensitivity for Context Variables,568,SD
+Python 3.8 Release Schedule,569,IA
+Python Positional-Only Parameters,570,SF
+The manylinux2010 Platform Tag,571,IS
+Assignment Expressions,572,SF
+Module State Access from C Extension Methods,573,SF
+Pickle protocol 5 with out-of-band data,574,SF
+Unifying function/method classes,575,SW
+Rationalize Built-in function classes,576,SW
+Augmented Assignment Expressions,577,SW
+Python Runtime Audit Hooks,578,SA
+Refactoring C functions and methods,579,IF
+The C call protocol,580,SR
+Using GitHub Issues for CPython,581,PA
+Python local packages directory,582,SR
+A Concurrency Memory Model for Python,583,IW
+Add Union Operators To dict,584,SF
+Type Hinting Generics In Standard Collections,585,SF
+Literal Types,586,SA
+Python Initialization Configuration,587,SF
+GitHub Issues Migration Plan,588,I
+TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys,589,SA
+Vectorcall: a fast calling protocol for CPython,590,SA
+Adding a final qualifier to typing,591,SA
+Adding “Yank” Support to the Simple API,592,SF
+Flexible function and variable annotations,593,SA
+Removing dead batteries from the standard library,594,SF
+Improving bugs.python.org,595,IW
+Python 3.9 Release Schedule,596,IA
+Add optional EncodingWarning,597,SF
+Introducing incremental feature releases,598,IW
+The manylinux2014 Platform Tag,599,IS
+Future ‘manylinux’ Platform Tags for Portable Linux Built Distributions,600,SF
+Forbid return/break/continue breaking out of finally,601,SR
+Annual Release Cycle for Python,602,IA
+Adding a frozenmap type to collections,603,S
+Allow writing union types as X | Y,604,SA
+A rolling feature release stream for CPython,605,IR
+Python Compatibility Version,606,SR
+Reducing CPython’s Feature Delivery Latency,607,IF
+Coordinated Python release,608,SR
+Python Packaging Authority (PyPA) Governance,609,PA
+Recording the Direct URL Origin of installed distributions,610,SF
+The one million limit,611,SW
+Parameter Specification Variables,612,SA
+Explicit Type Aliases,613,SA
+Relaxing Grammar Restrictions On Decorators,614,SF
+Support for the IANA Time Zone Database in the Standard Library,615,SA
+String methods to remove prefixes and suffixes,616,SF
+New PEG parser for CPython,617,SA
+Add Optional Length-Checking To zip,618,SF
+Python 3.10 Release Schedule,619,IA
+Hide implementation details from the C API,620,SW
+Storing project metadata in pyproject.toml,621,SF
+Structural Pattern Matching,622,SS
+Remove wstr from Unicode,623,SF
+Remove Py_UNICODE encoder APIs,624,SF
+Filename of a Source Distribution,625,SA
+Precise line numbers for debugging and other tools.,626,SF
+Recording installed projects,627,SF
+Add math.tau,628,SF
+Versioning PyPI’s Simple API,629,SF
+Isolating Extension Modules,630,IF
+Dependency specification in pyproject.toml based on PEP 508,631,SS
+Deprecate distutils module,632,SA
+Dependency specification in pyproject.toml using an exploded TOML table,633,SR
+Structural Pattern Matching: Specification,634,SA
+Structural Pattern Matching: Motivation and Rationale,635,IF
+Structural Pattern Matching: Tutorial,636,IF
+Support for indexing with keyword arguments,637,SR
+Syntactic Macros,638,S
+Improving License Clarity with Better Package Metadata,639,S
+Unused variable syntax,640,SR
+Using an underscore in the version portion of Python 3.10 compatibility tags,641,SR
+Explicit Pattern Syntax for Structural Pattern Matching,642,SR
+Metadata for Package Source Distributions,643,SF
+Require OpenSSL 1.1.1 or newer,644,SF
+Allow writing optional types as x?,645,SW
+Variadic Generics,646,SA
+User-Defined Type Guards,647,SA
+Extensible customizations of the interpreter at startup,648,SR
+Deferred Evaluation Of Annotations Using Descriptors,649,SA
+Specifying Installer Requirements for Python Projects,650,SW
+Robust Stack Overflow Handling,651,SR
+Maintaining the Stable ABI,652,SF
+Precise Semantics for Pattern Matching,653,S
+Exception Groups and except*,654,SA
+Marking individual TypedDict items as required or potentially-missing,655,SA
+Platform Tag for Linux Distributions Using Musl,656,SF
+Include Fine Grained Error Locations in Tracebacks,657,SF
+Serve Distribution Metadata in the Simple Repository API,658,SA
+Specializing Adaptive Interpreter,659,I
+Editable installs for pyproject.toml based builds (wheel based),660,SF
+Sentinel Values,661,S
+Editable installs via virtual wheels,662,SR
+"Standardizing Enum str(), repr(), and format() behaviors",663,IR
+Python 3.11 Release Schedule,664,IA
+A file format to list Python dependencies for reproducibility of an application,665,SR
+Reject Foolish Indentation,666,SR
+Consistent views of namespaces,667,S
+Marking Python base environments as “externally managed”,668,SA
+Low Impact Monitoring for CPython,669,SA
+Convert macros to functions in the Python C API,670,SF
+Syntax for late-bound function argument defaults,671,S
+Unicode-related Security Considerations for Python,672,IA
+Self Type,673,SA
+Disallow using macros as l-values,674,SD
+Arbitrary Literal String Type,675,SA
+PEP Infrastructure Process,676,PA
+Callable Type Syntax,677,SR
+Enriching Exceptions with Notes,678,SA
+Allow parentheses in assert statements,679,S
+tomllib: Support for Parsing TOML in the Standard Library,680,SA
+Data Class Transforms,681,SA
+Format Specifier for Signed Zero,682,SF
+"Immortal Objects, Using a Fixed Refcount",683,SA
+A Per-Interpreter GIL,684,SA
+Comparison of extra names for optional distribution dependencies,685,SA
+Make UTF-8 mode default,686,SA
+Isolating modules in the standard library,687,SA
+Making the buffer protocol accessible in Python,688,SA
+Unstable C API tier,689,SF
+Lazy Imports,690,SR
+JSON-based Simple API for Python Package Indexes,691,SA
+Using TypedDict for more precise **kwargs typing,692,SA
+Python 3.12 Release Schedule,693,IA
+Upload 2.0 API for Python Package Repositories,694,S
+Type Parameter Syntax,695,SA
+Type defaults for TypeVarLikes,696,S
+Limited C API for Extending Opaque Types,697,SF
+Override Decorator for Static Typing,698,SA
+Remove private dict version field added in PEP 509,699,SA
+Additional Fields for the Simple API for Package Indexes,700,SA
+Syntactic formalization of f-strings,701,SA
+Marking deprecations using the type system,702,S
+Making the Global Interpreter Lock Optional in CPython,703,S
+Require virtual environments by default for package installers,704,SW
+TypedMapping: Type Hints for Mappings with a Fixed Set of Keys,705,S
+Filter for tarfile.extractall,706,SF
+A simplified signature for __exit__ and __aexit__,707,SR
+Extending the Repository API to Mitigate Dependency Confusion Attacks,708,S
+Inlined comprehensions,709,SA
+Recording the provenance of installed packages,710,S
+PyBI: a standard format for distributing Python Binaries,711,S
+Adding a “converter” parameter to dataclasses.field,712,S
+Callable Modules,713,S
+Rename dist-info-metadata in the Simple API,714,SA
+Disabling bdist_egg distribution uploads on PyPI,715,SA
+Python 3.13 Release Schedule,719,IA
+Using tarfile.data_filter for source distribution extraction,721,S
+IEEE 754 Floating Point Special Values,754,SR
+Reserved,801,IA
+Python 3000,3000,PF
+Procedure for reviewing and improving standard library modules,3001,PW
+Procedure for Backwards-Incompatible Changes,3002,PF
+Python Language Moratorium,3003,PF
+Things that will Not Change in Python 3000,3099,PF
+Miscellaneous Python 3.0 Plans,3100,PF
+Advanced String Formatting,3101,SF
+Keyword-Only Arguments,3102,SF
+A Switch/Case Statement,3103,SR
+Access to Names in Outer Scopes,3104,SF
+Make print a function,3105,SF
+"Revamping dict.keys(), .values() and .items()",3106,SF
+Function Annotations,3107,SF
+Standard Library Reorganization,3108,SF
+Raising Exceptions in Python 3000,3109,SF
+Catching Exceptions in Python 3000,3110,SF
+Simple input built-in in Python 3000,3111,SF
+Bytes literals in Python 3000,3112,SF
+Removal of Tuple Parameter Unpacking,3113,SF
+Renaming iterator.next() to iterator.__next__(),3114,SF
+Metaclasses in Python 3000,3115,SF
+New I/O,3116,SF
+Postfix type declarations,3117,SR
+Revising the buffer protocol,3118,SF
+Introducing Abstract Base Classes,3119,SF
+Using UTF-8 as the default source encoding,3120,SF
+Extension Module Initialization and Finalization,3121,SA
+Delineation of the main module,3122,SR
+Making PyObject_HEAD conform to standard C,3123,SF
+"Overloading, Generic Functions, Interfaces, and Adaptation",3124,SD
+Remove Backslash Continuation,3125,SR
+Remove Implicit String Concatenation,3126,SR
+Integer Literal Support and Syntax,3127,SF
+BList: A Faster List-like Type,3128,SR
+Class Decorators,3129,SF
+Access to Current Module/Class/Function,3130,SR
+Supporting Non-ASCII Identifiers,3131,SF
+Extended Iterable Unpacking,3132,SF
+Introducing Roles,3133,SR
+Exception Chaining and Embedded Tracebacks,3134,SF
+New Super,3135,SF
+Labeled break and continue,3136,SR
+Immutable Bytes and Mutable Buffer,3137,SF
+String representation in Python 3000,3138,SF
+Cleaning out sys and the “interpreter” module,3139,SR
+"str(container) should call str(item), not repr(item)",3140,SR
+A Type Hierarchy for Numbers,3141,SF
+Add a “while” clause to generator expressions,3142,SR
+Standard daemon process library,3143,SD
+IP Address Manipulation Library for the Python Standard Library,3144,SF
+Asynchronous I/O For subprocess.Popen,3145,SW
+Merging Unladen Swallow into CPython,3146,SW
+PYC Repository Directories,3147,SF
+futures - execute computations asynchronously,3148,SF
+ABI version tagged .so files,3149,SF
+Statement local namespaces (aka “given” clause),3150,SD
+Reworking the OS and IO exception hierarchy,3151,SF
+Cofunctions,3152,SR
+Asynchronous IO support,3153,SS
+Pickle protocol version 4,3154,SF
+Qualified name for classes and functions,3155,SF
+Asynchronous IO Support Rebooted: the “asyncio” Module,3156,SF
+Python Web Server Gateway Interface v1.0.1,3333,IF
+Python Language Governance Proposal Overview,8000,IF
+Python Governance Voting Process,8001,PF
+Open Source Governance Survey,8002,IF
+The Technical Leader Governance Model,8010,IR
+Python Governance Model Lead by Trio of Pythonistas,8011,IR
+The Community Governance Model,8012,IR
+The External Council Governance Model,8013,IR
+The Commons Governance Model,8014,IR
+Organization of the Python community,8015,IR
+The Steering Council Model,8016,IA
+January 2019 Steering Council election,8100,IF
+2020 Term Steering Council election,8101,IF
+2021 Term Steering Council election,8102,IF
+2022 Term Steering Council election,8103,IF
+2023 Term Steering Council election,8104,IA
