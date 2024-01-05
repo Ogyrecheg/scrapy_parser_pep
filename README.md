@@ -48,7 +48,7 @@ pip install -r requirements.txt
 scrapy crawl pep
 ```
 
-Результаты работу парсера лежат в папке ``results``
+Результаты работы парсера лежат в папке ``results``
 
 **Технологии:**
 - Python
